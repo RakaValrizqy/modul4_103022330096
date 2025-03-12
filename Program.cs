@@ -15,8 +15,8 @@ class Program
         } else {
             Console.WriteLine($"Produk {input} tidak ditemukan"); //output jika tidak ditemukan enum dengan produk yang diinput
         }
-        
 
+        FanLaptop.run(); //memanggil method run() dari class FanLaptop
     }
 }
 
